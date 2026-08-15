@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Group Terraform provider/module updates into one PR",
+      "matchManagers": ["terraform"],
+      "groupName": "terraform"
+    },
+    {
+      "description": "Group all Python dependency updates into one PR",
+      "matchManagers": ["pip_requirements"],
+      "groupName": "python-dependencies"
+    }
+  ]
+}
