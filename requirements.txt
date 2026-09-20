@@ -1,5 +1,5 @@
-boto3==1.43.93
-botocore==1.43.93
+boto3==1.43.98
+botocore==1.43.98
 loguru==0.7.3
 argparse
 urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
